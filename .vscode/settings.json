@@ -1,0 +1,28 @@
+{
+    "prettier.bracketSameLine": true,
+    "prettier.printWidth": 120,
+    "liveSassCompile.settings.compileOnWatch": true,
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.useNewCompiler": true,
+    "liveSassCompile.settings.showOutputWindowOn": "Warning",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null,
+            "savePathReplacementPairs": {
+                "/scss/": "/testcss/"
+            },
+            "generateMap": false
+        },
+        {
+            "format": "compressed",
+            "extensionName": "-min.css",
+            "savePath": null,
+            "savePathReplacementPairs": {
+                "/scss/": "/css/"
+            },
+            "generateMap": false
+        }
+    ],
+}
